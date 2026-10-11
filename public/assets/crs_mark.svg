@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="100%" height="100%">
+  <!-- White Background with soft border -->
+  <rect width="320" height="220" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  
+  <!-- Standard Title -->
+  <text x="160" y="38" font-family="'Noto Sans', Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#0F172A">
+    IS 13252 (Part 1) / IEC 60950
+  </text>
+  
+  <line x1="40" y1="48" x2="280" y2="48" stroke="#0F172A" stroke-width="2" />
+  
+  <!-- CRS Official Emblem -->
+  <g transform="translate(115, 58) scale(0.9)">
+    <!-- Central R Circle -->
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#0F172A" stroke-width="8" stroke-dasharray="210 20"/>
+    <text x="50" y="66" font-family="'Noto Sans', Arial, sans-serif" font-size="48" font-weight="900" text-anchor="middle" fill="#0F172A">
+      R
+    </text>
+  </g>
+  
+  <!-- Registration Number -->
+  <line x1="40" y1="168" x2="280" y2="168" stroke="#0F172A" stroke-width="2" />
+  
+  <text x="160" y="190" font-family="'Noto Sans', monospace" font-size="16" font-weight="800" text-anchor="middle" fill="#0F172A" letter-spacing="1">
+    R - 41001234
+  </text>
+  <text x="160" y="206" font-family="'Noto Sans', Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#64748B">
+    www.bis.gov.in
+  </text>
+</svg>

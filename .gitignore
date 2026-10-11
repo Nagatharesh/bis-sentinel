@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+bis_sentinel.db
+bis_sentinel.db-shm
+bis_sentinel.db-wal
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-electron/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

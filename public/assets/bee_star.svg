@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="100%" height="100%">
+  <!-- Outer Frame -->
+  <rect width="320" height="220" rx="16" fill="#F0FDF4" stroke="#86EFAC" stroke-width="2"/>
+  
+  <!-- Header: MORE STARS MORE SAVINGS -->
+  <rect x="0" y="0" width="320" height="42" rx="16" fill="#15803D"/>
+  <text x="160" y="27" font-family="'Noto Sans', Arial, sans-serif" font-size="14" font-weight="900" text-anchor="middle" fill="#FFFFFF" letter-spacing="1">
+    MORE STARS MORE SAVINGS
+  </text>
+  
+  <!-- Central 5-Star Arc Rating -->
+  <g transform="translate(60, 52)">
+    <!-- 5 Filled Bright Yellow Stars -->
+    <path d="M20 30L26 48L10 37L30 37L14 48Z" fill="#EAB308" stroke="#CA8A04" stroke-width="2" transform="scale(0.8)"/>
+    <path d="M60 20L66 38L50 27L70 27L54 38Z" fill="#EAB308" stroke="#CA8A04" stroke-width="2" transform="scale(0.8) translate(15, -4)"/>
+    <path d="M100 15L106 33L90 22L110 22L94 33Z" fill="#EAB308" stroke="#CA8A04" stroke-width="2" transform="scale(0.8) translate(30, -7)"/>
+    <path d="M140 20L146 38L130 27L150 27L134 38Z" fill="#EAB308" stroke="#CA8A04" stroke-width="2" transform="scale(0.8) translate(45, -4)"/>
+    <path d="M180 30L186 48L170 37L190 37L174 48Z" fill="#EAB308" stroke="#CA8A04" stroke-width="2" transform="scale(0.8) translate(60, 0)"/>
+  </g>
+  
+  <text x="160" y="112" font-family="'Noto Sans', Arial, sans-serif" font-size="20" font-weight="900" text-anchor="middle" fill="#166534">
+    ★ ★ ★ ★ ★
+  </text>
+  <text x="160" y="130" font-family="'Noto Sans', Arial, sans-serif" font-size="12" font-weight="800" text-anchor="middle" fill="#15803D">
+    POWER SAVINGS GUIDE (BEE)
+  </text>
+  
+  <!-- Info table box -->
+  <rect x="25" y="142" width="270" height="64" rx="8" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1.5"/>
+  <text x="35" y="162" font-family="'Noto Sans', Arial, sans-serif" font-size="11" font-weight="600" fill="#475569">
+    ELECTRICITY CONSUMPTION:
+  </text>
+  <text x="285" y="162" font-family="'Noto Sans', Arial, sans-serif" font-size="12" font-weight="800" text-anchor="end" fill="#166534">
+    198* Units/Year
+  </text>
+  <text x="35" y="182" font-family="'Noto Sans', Arial, sans-serif" font-size="10" font-weight="500" fill="#64748B">
+    Applicable Standard: BEE/REF/2024/089
+  </text>
+  <text x="35" y="196" font-family="'Noto Sans', Arial, sans-serif" font-size="9" font-weight="500" fill="#94A3B8">
+    Under test conditions as per BEE notification
+  </text>
+</svg>

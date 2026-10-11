@@ -1,0 +1,191 @@
+{
+  "appName": "BIS Sentinel",
+  "appSubtitle": "Consumer Checker",
+  "disclaimer": "This is a check against available records, not a legal finding.",
+  "disclaimerShort": "Check against official records only",
+  "nav": {
+    "check": "Check",
+    "history": "My Checks",
+    "learn": "Learn",
+    "profile": "Profile"
+  },
+  "onboarding": {
+    "welcome": "Verify standard marks with official records in seconds",
+    "sub": "A calm, neutral civic companion designed for everyday shoppers.",
+    "selectLanguage": "Select your preferred language",
+    "step1Title": "What this app does",
+    "step1Desc": "Compares product standard marks, licence numbers, and seller claims against public Bureau of Indian Standards (BIS) registries.",
+    "step2Title": "What this app does not do",
+    "step2Desc": "We do not declare products fake or illegal. We only report whether claims match available records. Official decisions rest with designated BIS authorities.",
+    "step3Title": "Your privacy & permissions",
+    "step3Desc": "Camera is used strictly to read marks and text on your device. No account is required to perform checks. Your checks remain on your phone.",
+    "getStarted": "Start Checking"
+  },
+  "home": {
+    "greeting": "Verify before you buy",
+    "subtitle": "Check if BIS standard mark claims match official records",
+    "actionScan": "Scan Product",
+    "actionScanDesc": "Use camera or photo to read mark and licence",
+    "actionLink": "Paste Listing Link",
+    "actionLinkDesc": "Verify e-commerce listings (Amazon, Flipkart, etc.)",
+    "actionLicence": "Enter Licence Number",
+    "actionLicenceDesc": "Type 7-digit CM/L or R-number manually",
+    "recentChecks": "Recent checks",
+    "viewAll": "View all",
+    "mandatoryStrip": "Products requiring mandatory ISI certification",
+    "searchPlaceholder": "Search by product, brand, or standard..."
+  },
+  "capture": {
+    "title": "Capture Product Photos",
+    "stepFront": "Front View",
+    "stepMark": "Mark Close-Up",
+    "stepPlate": "Rating Plate",
+    "stepBox": "Packaging Box",
+    "promptMoveCloser": "Move a little closer to the mark",
+    "promptReduceGlare": "Angle away from direct light to reduce glare",
+    "promptGood": "Clear focus detected. Ready to capture.",
+    "qualityMeter": "Photo clarity",
+    "snapPhoto": "Capture Photo",
+    "uploadGallery": "Upload from gallery",
+    "switchCamera": "Flip camera",
+    "doneCapture": "Proceed with 4 photos"
+  },
+  "listing": {
+    "title": "Paste Listing Link",
+    "subtitle": "We extract the product title, seller claims, and images to compare against records",
+    "inputPlaceholder": "Paste URL (e.g., https://amazon.in/dp/...)",
+    "supportedPlatforms": "Supported platforms",
+    "previewTitle": "Extracted Listing Preview",
+    "analyzeNow": "Run Record Verification",
+    "pasteClipboard": "Paste from clipboard"
+  },
+  "licence": {
+    "title": "Enter Licence Number",
+    "subtitle": "Look for the 7-digit CM/L number below the ISI mark or R-number below CRS mark",
+    "placeholder": "e.g. CM/L-8400123 or 8400123",
+    "helper": "CM/L indicates standard ISI marks. R- indicates electronic registration.",
+    "verifyBtn": "Verify Licence Number"
+  },
+  "analysis": {
+    "title": "Checking Records",
+    "subtitle": "Comparing product details with the official national registry",
+    "step1": "Reading photo & optical text",
+    "step2": "Locating standard marks (ISI / CRS)",
+    "step3": "Extracting licence number digits",
+    "step4": "Querying central BIS register",
+    "step5": "Evaluating SCOPE-4 dimensions",
+    "inProgress": "Processing...",
+    "completed": "Verified",
+    "skipped": "Skipped",
+    "failed": "Could not complete this step",
+    "honestNote": "Each step runs independently. If photo text is blurred, manual correction will be available."
+  },
+  "outcomes": {
+    "noMismatch": "No mismatch detected in the available evidence",
+    "inconsistency": "Possible inconsistency requiring review",
+    "unableToVerify": "Unable to verify with available records",
+    "ecoSeparate": "Environmental claim requires separate verification"
+  },
+  "scope4": {
+    "title": "SCOPE-4 Assessment",
+    "claim": "Claim",
+    "identity": "Identity",
+    "scope": "Scope",
+    "time": "Time",
+    "supported": "Supported",
+    "contradiction": "Contradiction",
+    "unknown": "Unknown"
+  },
+  "result": {
+    "summaryTab": "Summary",
+    "claimTab": "Claim Detail",
+    "comparisonTab": "Record Match",
+    "timeTab": "Timeline",
+    "evidenceTab": "Evidence Trail",
+    "ecoTab": "EcoLoop",
+    "reportAction": "Report to BIS for Review",
+    "saveRecord": "Save Evidence Record",
+    "ocrConfidence": "OCR Confidence",
+    "editLicenceDigits": "Correct digits and re-check",
+    "productCol": "Product Evidence",
+    "officialCol": "Official Record",
+    "match": "Consistent",
+    "differing": "Differs from record",
+    "missing": "No record found"
+  },
+  "evidence": {
+    "title": "Preserved Evidence Trail",
+    "subtitle": "Cryptographically hashed artifacts captured during verification",
+    "hashNote": "A SHA-256 hash confirms the file has not been altered since capture; it does not prove the underlying product is authentic.",
+    "copyHash": "Copy Hash",
+    "copied": "Copied!"
+  },
+  "eco": {
+    "title": "EcoLoop – Environmental Guidance",
+    "beeTitle": "BEE Energy Label Verification",
+    "beeDesc": "Energy star ratings are governed separately by the Bureau of Energy Efficiency (BEE).",
+    "disposalTitle": "Responsible E-Waste Disposal",
+    "disposalDesc": "Under the E-Waste Management Rules 2022, manufacturers must provide authorized takeback.",
+    "collectionPoints": "Authorized Collection Points in Coimbatore",
+    "listView": "List View",
+    "mapView": "Map Guide",
+    "distance": "Distance",
+    "timing": "Hours",
+    "accepted": "Accepts"
+  },
+  "report": {
+    "title": "Submit Inquiry to BIS",
+    "subtitle": "Pre-filled evidence packet formatted for the official BIS Care grievance system",
+    "complaintType": "Grievance Category",
+    "typeMisuse": "Misuse of BIS Standard Mark",
+    "typeMisleading": "Misleading Advertisement Claim",
+    "typeQuality": "Product Quality & Safety Issue",
+    "neutralSummary": "Neutral Summary of Observed Inconsistency",
+    "consentLabel": "I consent to sharing my contact info with BIS officials for verification",
+    "humanReviewNote": "A designated BIS technical officer will review the preserved files and initiate official contact if required.",
+    "submitBtn": "Submit Report to BIS Queue",
+    "exportBisCare": "Export in BIS Care Format"
+  },
+  "history": {
+    "title": "My Checks & Reports",
+    "tabChecks": "Checks (8)",
+    "tabReports": "Reports (3)",
+    "filterAll": "All",
+    "filterInconsistency": "Needs Review",
+    "filterSupported": "No Mismatch",
+    "empty": "No records found in this category",
+    "uploadEvidence": "Upload Additional Evidence",
+    "reviewerNote": "Official Reviewer Note"
+  },
+  "learn": {
+    "title": "Standards & Marks Guide",
+    "isiTitle": "The ISI Mark (Product Quality)",
+    "crsTitle": "CRS Mark (Compulsory Registration)",
+    "hallmarkTitle": "BIS Hallmark (Gold & Silver)",
+    "licenceGuideTitle": "How to Read a 7-Digit CM/L Licence",
+    "methodologyTitle": "How This App Works & Its Limits",
+    "blindspotsTitle": "Known Blind Spots",
+    "blindspotsText": "Public registers may have a 24-48 hour update lag. Missing evidence is never treated as proof of wrongdoing."
+  },
+  "profile": {
+    "title": "Preferences & Privacy",
+    "language": "Language",
+    "textSize": "Text Size",
+    "highContrast": "High Contrast Mode",
+    "offlineMode": "Offline Capabilities",
+    "exportData": "Export All Data (JSON)",
+    "clearData": "Clear All Local Data",
+    "aboutApp": "About BIS Sentinel",
+    "version": "Version 1.0.0 (Production Shell)"
+  },
+  "chatbot": {
+    "name": "Sentinel Sahayak",
+    "subtitle": "Civic AI Companion",
+    "placeholder": "Ask in English, தமிழ், or हिंदी...",
+    "listening": "Listening... Speak now",
+    "speakTooltip": "Voice Input",
+    "voiceOutTooltip": "Read answers aloud",
+    "close": "Close assistant",
+    "quickReplies": "Suggested questions"
+  }
+}
